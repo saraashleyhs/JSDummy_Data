@@ -1,0 +1,11 @@
+body{
+    background: rgb(174, 226, 122);
+    text-align: center;
+}
+
+button{
+    background-color: rgb(87, 182, 233);
+    text-align: center;
+    font-size: larger;
+    box-shadow: 3px 3px 5px rgb(177, 72, 15);
+}
