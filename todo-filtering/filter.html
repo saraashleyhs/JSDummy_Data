@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="fetchTodos()">Fetch Todos</button>
+    <button onclick="logTodos()">Log Todos</button>
+    <button onclick="populateTodos()">Populate Todos</button>
+
+    <input class="button" type="text" id="userInput">
+    
+    <button class="button" onclick="filterTodos()">Filter Todos</button>
+    <button class="button" onclick="clearTodos()">Clear Todos</button>
+    <button class="button" onclick="toggleCompletion()">Toggle Completion</button>
+    <ol id="todo-list">
+      <!-- LIs will go here -->
+    </ol>
+    <script src="data.js"></script>
+</body>
+</html>
